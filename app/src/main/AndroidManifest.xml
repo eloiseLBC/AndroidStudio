@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Salade"
         tools:targetApi="31">
         <activity
+            android:name=".BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProduitsActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
