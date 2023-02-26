@@ -41,6 +41,10 @@ open class BaseActivity: AppCompatActivity() {
         Log.i("Epsi","################## onDestroy :"+javaClass.simpleName)
     }
 
+    fun setHeaderTxt(txt:String) {
+        val textViewTitle = findViewById<TextView>(R.id.textViewTitle)
+        textViewTitle.setText(txt)
+    }
     fun showBack(){
         val imageViewBack=findViewById<ImageView>(R.id.imageViewBack)
         imageViewBack.visibility=View.VISIBLE
